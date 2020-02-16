@@ -6,4 +6,8 @@ layout: default
 
 _yay_
 
+$$
+F_{\ell}
+$$
+
 [back](./)
