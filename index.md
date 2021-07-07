@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Yangye Fu's Personal Homepage
+# Jeff Fu's Personal Homepage
 
 This is a page for storing some cool projects of ML & DL.
 
