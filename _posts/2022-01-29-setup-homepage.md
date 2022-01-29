@@ -80,6 +80,8 @@ bundle exec jekyll liveserve
 
 Now you can access the website locally at [http://localhost:4000](http://localhost:4000).
 
+> Note: If you want to access a link in the local website, remember to replace the prefix of the address with http://localhost:4000, otherwise you will goto the online page, not the local one. For example, in my case, I replace https://fyy10.github.io/foo with http://localhost:4000/foo to view my local page `foo`.
+
 # Other stuffs
 
 I'm still trying to figure out how to elegantly show images (physically well-organized) in the posts and I will try adding some pictures in the following ones to make them more readable. I apologize for the lack of vivid image in this blog post.
