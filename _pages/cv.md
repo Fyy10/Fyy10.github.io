@@ -13,9 +13,13 @@ redirect_from:
 
 # Education
 
-## University of Electronic Science and Technology of China (UESTC) -- Sep.2018 ~ Jun.2022 (expected)
+## University of California, San Diego (UCSD) -- Sep.2022 ~ Present
 
-- Major: Computer Science and Technology \| **Cumulative GPA: 3.97/4.0**
+- Major: Computer Science and Engineering
+
+## University of Electronic Science and Technology of China (UESTC) -- Sep.2018 ~ Jun.2022
+
+- Major: Computer Science and Technology \| **Cumulative GPA: 3.96/4.0**
 - Major Coursework: The C/C++ Programming, Data Structure and Algorithm, Computer Networks, Computer Operating System, Artificial Intelligence, Software Engineering, Principle and Application of Database, Principles of Computer Organization, Fundamentals of Compiler, Computer Architecture.
 
 # Publications
@@ -30,7 +34,7 @@ redirect_from:
 - Employed a feature selection vector based on the correlation among the features of multiple source domains and the target domain and designed three effective feature alignment losses to align the features by preserving the domain information of data sample clusters in the same category and discrimination between different classes.
 - Extensive experiments conducted on three prevailing MSDA datasets exhibited that the model outperformed the state-of-the-art MSDA and PDA methods in both MSDA and MSPDA tasks.
 
-# University Projects
+# Projects
 
 ## Artificial intelligence poet system -- Dec.2019 ~ Feb.2020
 
@@ -58,9 +62,9 @@ redirect_from:
 - Computed the number of primes smaller or equal to the given number N using the MPI algorithm with three optimized approaches, which eventually achieved significant improvement in performance.
 - Simulated the gravity interactions and the motions of 4096 bodies with CUDA C and reached more than 1500x speedup compared with sequential code on the target machine.
 
-# Working Experience
+# Working Experiences
 
-## UESTC Center for Future Media -- Oct.2019 ~ Present
+## UESTC Center for Future Media -- Oct.2019 ~ Jun.2022
 
 *Research Assistant*; Laboratory Web: [https://cfm.uestc.edu.cn/](https://cfm.uestc.edu.cn/); Advisor: *Xing Xu*; *Chengdu, China*
 

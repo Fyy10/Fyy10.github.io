@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior student at **University of Electronic Science and Technology of China** ([UESTC](https://uestc.edu.cn)) majoring in Computer Science and Technology, advised by Prof. [Xing Xu](https://interxuxing.github.io/).
+I am a first-year master's student at **University of California, San Diego** ([UCSD](https://ucsd.edu/)) majoring in Computer Science and Engineering (CSE). Prior to that, I received my bachelor's degree in Computer Science and Technology at **University of Electronic Science and Technology of China** ([UESTC](https://uestc.edu.cn)), advised by Prof. [Xing Xu](https://interxuxing.github.io/).
 
 News
 ======
-- I'm looking for a Ph.D. position
+- I'm looking for a summer internship
 
 Research
 ======
