@@ -15,7 +15,8 @@ redirect_from:
 
 ## University of California, San Diego (UCSD) -- Sep.2022 ~ Present
 
-- Major: Computer Science and Engineering
+- Major: Computer Science and Engineering \| **Current GPA: 4.0/4.0**
+- Major Coursework: Principles of Computer Operating Systems, Recommender Systems, Probabilistic Reasoning, Convex Optimization, Search and Optimization, Graduate Networked Systems.
 
 ## University of Electronic Science and Technology of China (UESTC) -- Sep.2018 ~ Jun.2022
 
@@ -77,6 +78,8 @@ redirect_from:
   - PyTorch
 - LaTeX
 - C/C++
+- Java
+- Go
 
 # Language
 
