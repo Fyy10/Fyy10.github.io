@@ -37,18 +37,12 @@ redirect_from:
 
 # Projects
 
-## Artificial intelligence poet system -- Dec.2019 ~ Feb.2020
+## The Sieve of Prime Numbers and N-Body Simulation (Paralleled Computing) -- Mar.2021 ~ May.2021
 
-- Project GitHub: [https://github.com/Fyy10/AI-Poet](https://github.com/Fyy10/AI-Poet)
-- Constructed a model to automatically write Chinese poems.
-- Implemented the model in Python with PyTorch as the deep learning framework.
-- Applied NLP techniques including RNN, LSTM, CharRNN model, Seq2Seq model, and Attention Mechanism.
-- Trained the model on a GTX 1050 Ti graphic card and released the trained model on GitHub.
-
-## Convolutional Neural Networks for Visual Recognition -- Jan.2020 ~ Feb.2020
-
-- Assignment GitHub: [https://github.com/Fyy10/ML-DL_Practice/tree/master/cs231n](https://github.com/Fyy10/ML-DL_Practice/tree/master/cs231n)
-- Improved my programming skill and understanding of computer vision through finishing Stanford CS231n assignments that covered topics including K-nearest neighbor algorithm, fully-connected networks and convolutional networks, generative adversarial networks, and style transfer.
+- Project GitHub: [https://github.com/Fyy10/Parallel_Computing](https://github.com/Fyy10/Parallel_Computing)
+- Implemented the Sieve of Eratosthenes Algorithm using MPI (Message Passing Interface).
+- Computed the number of primes smaller or equal to the given number N using the MPI algorithm with three optimized approaches, which eventually achieved significant improvement in performance.
+- Simulated the gravity interactions and the motions of 4096 bodies with CUDA C and reached more than 1500x speedup compared with sequential code on the target machine.
 
 ## Applications and challenges of Artificial Intelligence -- Sept.2020 ~ Nov.2020
 
@@ -56,12 +50,18 @@ redirect_from:
 - Learned fundamental concepts and acquired skills in artificial intelligence including decision tree (ID3 algorithm), backpropagation in neural networks, fully connected networks for MNIST classification, LeNet for CIFAR10 classification, and VGG16 for flower classification.
 - Led a team of 4 to attend the Kaggle Competition (Kannada-MNIST), where I managed to implement the designed models in Python utilizing PyTorch, and delivered the defense presentation.
 
-## The Sieve of Prime Numbers and N-Body Simulation (Paralleled Computing) -- Mar.2021 ~ May.2021
+## Convolutional Neural Networks for Visual Recognition -- Jan.2020 ~ Feb.2020
 
-- Project GitHub: [https://github.com/Fyy10/Parallel_Computing](https://github.com/Fyy10/Parallel_Computing)
-- Implemented the Sieve of Eratosthenes Algorithm using MPI (Message Passing Interface).
-- Computed the number of primes smaller or equal to the given number N using the MPI algorithm with three optimized approaches, which eventually achieved significant improvement in performance.
-- Simulated the gravity interactions and the motions of 4096 bodies with CUDA C and reached more than 1500x speedup compared with sequential code on the target machine.
+- Assignment GitHub: [https://github.com/Fyy10/ML-DL_Practice/tree/master/cs231n](https://github.com/Fyy10/ML-DL_Practice/tree/master/cs231n)
+- Improved my programming skill and understanding of computer vision through finishing Stanford CS231n assignments that covered topics including K-nearest neighbor algorithm, fully-connected networks and convolutional networks, generative adversarial networks, and style transfer.
+
+## Artificial intelligence poet system -- Dec.2019 ~ Feb.2020
+
+- Project GitHub: [https://github.com/Fyy10/AI-Poet](https://github.com/Fyy10/AI-Poet)
+- Constructed a model to automatically write Chinese poems.
+- Implemented the model in Python with PyTorch as the deep learning framework.
+- Applied NLP techniques including RNN, LSTM, CharRNN model, Seq2Seq model, and Attention Mechanism.
+- Trained the model on a GTX 1050 Ti graphic card and released the trained model on GitHub.
 
 # Working Experiences
 
