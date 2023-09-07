@@ -91,7 +91,7 @@ redirect_from:
 - Project GitHub (Rust): [https://github.com/Fyy10/snek-compiler](https://github.com/Fyy10/snek-compiler)
 - An x86_64 compiler for snek (Lisp-like) language
 - Parsed the abstract syntax tree (AST) using Rust pattern matching
-- Implemented numerical and logical operators, variable binding, if statements, loop statements, functions and structured data (tuples)
+- Implemented numerical and logical operators, variable binding, if statements, loop statements, functions, and structured data (tuples)
 - Learned and followed the calling convention according to System V ABI
 - Created heap-allocated data with Rust library and managed the memory with Assembly
 - Garbage collection using LISP 2 mark-and-compact algorithm
