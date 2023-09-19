@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- You can find the PDF [here](../files/paper1.pdf). -->
+You can find the PDF [here](../files/cv_dev.pdf).
 
 # Education
 
