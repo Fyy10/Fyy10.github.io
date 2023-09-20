@@ -15,7 +15,7 @@ You can find the PDF [here](../files/cv_dev.pdf).
 
 ## University of California, San Diego (UCSD) -- Sep.2022 ~ Mar.2024 (expected)
 
-- Major: Computer Science and Engineering \| **Current GPA: 4.0/4.0**
+- Major: Computer Science \| **Cumulative GPA: 4.0/4.0**
 - Major Coursework: Principles of Computer Operating Systems, Recommender Systems, Probabilistic Reasoning & Learning, Convex Optimization, Search and Optimization, Graduate Networked Systems, Statistical Natural Language Processing, Compiler Construction, Parallel Computing.
 
 ## University of Electronic Science and Technology of China (UESTC) -- Sep.2018 ~ Jun.2022
