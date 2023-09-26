@@ -24,5 +24,5 @@ I have some projects related to operating systems, networking and compilers for 
 
 Experiences
 ======
-- **Sichuan Hwadee Information Technology Ltd.**, *Crawler Engineer*
-- **UESTC Center for Future Media**, *Research Assistant* \| Advisor: Xing Xu
+- **Sichuan Hwadee Information Technology Ltd.**, *Crawler Engineer Intern*
+- **UESTC Center for Future Media**, *Deep Learning Research Assistant* \| Advisor: Xing Xu

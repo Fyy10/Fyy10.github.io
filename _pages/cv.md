@@ -39,7 +39,7 @@ You can find the PDF [here](../files/cv_dev.pdf).
 
 ## Sichuan Hwadee Information Technology Ltd. -- Jun.2020 ~ Jul.2020
 
-*Crawler Engineer*; Company Homepage: [http://www.hwadee.com/](http://www.hwadee.com/); *Chengdu, China*
+*Crawler Engineer Intern*; Company Homepage: [http://www.hwadee.com/](http://www.hwadee.com/); *Chengdu, China*
 
 - Used Scrapy as the crawler engine to crawl movie metadata from IMDb Top 1000 rated movies and combined data into a single file
 - Generated pages to be crawled and stored links into a Redis server
@@ -47,10 +47,11 @@ You can find the PDF [here](../files/cv_dev.pdf).
 
 ## UESTC Center for Future Media -- Oct.2019 ~ Jun.2022
 
-*Research Assistant*; Laboratory Web: [https://cfm.uestc.edu.cn/](https://cfm.uestc.edu.cn/); Advisor: *Xing Xu*; *Chengdu, China*
+*Deep Learning Research Assistant*; Laboratory Web: [https://cfm.uestc.edu.cn/](https://cfm.uestc.edu.cn/); Advisor: *Xing Xu*; *Chengdu, China*
 
-- Proposed a method for multi-source domain adaptation by aligning partial features, implemented the model with PyTorch, and conducted experiments to demonstrate the superiority of the model.
-- Composed the Statement of Claims of a patent for the proposed method.
+- Proposed a method for multi-source domain adaptation by aligning partial features, implemented the model with PyTorch, and conducted experiments to demonstrate the superiority of the model
+- Composed the Statement of Claims of a patent for the proposed method
+- Published a research paper as the first author at the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 
 # Projects
 
@@ -128,7 +129,7 @@ You can find the PDF [here](../files/cv_dev.pdf).
 - Computed the number of primes smaller or equal to the given number N using the MPI algorithm with three optimized approaches, which eventually achieved significant improvement in performance.
 - Simulated the gravity interactions and the motions of 4096 bodies with CUDA C and reached more than 1500x speedup compared with sequential code on the target machine.
 
-## Applications and challenges of Artificial Intelligence -- Sept.2020 ~ Nov.2020
+## Applications and Challenges of Artificial Intelligence -- Sept.2020 ~ Nov.2020
 
 - Project GitHub (Python): [https://github.com/Fyy10/Python-Playground/tree/master/AI](https://github.com/Fyy10/Python-Playground/tree/master/AI)
 - Learned fundamental concepts and acquired skills in artificial intelligence including decision tree (ID3 algorithm), backpropagation in neural networks, fully connected networks for MNIST classification, LeNet for CIFAR10 classification, and VGG16 for flower classification.
@@ -145,7 +146,7 @@ You can find the PDF [here](../files/cv_dev.pdf).
 - Assignment GitHub (Python): [https://github.com/Fyy10/ML-DL_Practice/tree/master/cs231n](https://github.com/Fyy10/ML-DL_Practice/tree/master/cs231n)
 - Improved my programming skill and understanding of computer vision through finishing Stanford CS231n assignments that covered topics including K-nearest neighbor algorithm, fully-connected networks and convolutional networks, generative adversarial networks, and style transfer.
 
-## Artificial intelligence poet system -- Dec.2019 ~ Feb.2020
+## Artificial Intelligence Poet System -- Dec.2019 ~ Feb.2020
 
 - Project GitHub (Python): [https://github.com/Fyy10/AI-Poet](https://github.com/Fyy10/AI-Poet)
 - Constructed a model to automatically write Chinese poems.
@@ -158,12 +159,16 @@ You can find the PDF [here](../files/cv_dev.pdf).
 - Python
   - PyTorch
   - NumPy
-- LaTeX
+- $\LaTeX$
 - C/C++
+  - MPI
+  - CUDA C
+  - Qt
 - Java
 - Go
 - Rust
 - Intel Assembly
+- Git
 
 # Language
 
