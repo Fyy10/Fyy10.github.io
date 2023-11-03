@@ -9,14 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-You can find the PDF [here](../files/cv_dev.pdf).
+You can find the PDF [here](../files/resume.pdf).
 
 # Education
 
 ## University of California, San Diego (UCSD) -- Sep.2022 ~ Mar.2024 (expected)
 
 - Major: Computer Science \| **Cumulative GPA: 4.0/4.0**
-- Major Coursework: Principles of Computer Operating Systems, Recommender Systems, Probabilistic Reasoning & Learning, Convex Optimization, Search and Optimization, Graduate Networked Systems, Statistical Natural Language Processing, Compiler Construction, Parallel Computing.
+- Major Coursework: Principles of Computer Operating Systems, Recommender Systems, Probabilistic Reasoning & Learning, Convex Optimization, Search and Optimization, Graduate Networked Systems, Statistical Natural Language Processing, Compiler Construction, Parallel Computing, Data Science Programming, Principles of Computer Architecture, Mathematics for Robotics.
 
 ## University of Electronic Science and Technology of China (UESTC) -- Sep.2018 ~ Jun.2022
 
@@ -27,7 +27,7 @@ You can find the PDF [here](../files/cv_dev.pdf).
 
 ***Yangye Fu**, Ming Zhang, Xing Xu, Zuo Cao, Chao Ma, Yanli Ji, Kai Zuo, Huimin Lu*; Partial Feature Selection and Alignment for Multi-Source Domain Adaptation; Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021, pp. 16654-16663
 
-# Research Experiences
+# Research Experience
 
 ## Partial Feature Selection and Alignment for Multi-Source Domain Adaptation -- May.2020 ~ Jun.2021
 
@@ -35,7 +35,7 @@ You can find the PDF [here](../files/cv_dev.pdf).
 - Employed a feature selection vector based on the correlation among the features of multiple source domains and the target domain and designed three effective feature alignment losses to align the features by preserving the domain information of data sample clusters in the same category and discrimination between different classes.
 - Extensive experiments conducted on three prevailing MSDA datasets exhibited that the model outperformed the state-of-the-art MSDA and PDA methods in both MSDA and MSPDA tasks.
 
-# Working Experiences
+# Working Experience
 
 ## Sichuan Hwadee Information Technology Ltd. -- Jun.2020 ~ Jul.2020
 
@@ -64,18 +64,27 @@ You can find the PDF [here](../files/cv_dev.pdf).
 
 - Project GitHub (C/C++, Assembly): [https://github.com/Fyy10/FireOS](https://github.com/Fyy10/FireOS) -->
 
-<!-- ## FA Language -- Aug.2023 ~ Sept.2023
+## Some Utility Tools
+
+- [Math renderer](https://math-render.pages.dev/): write $\LaTeX$ equations in the browser and copy them to MS Word
+- [MIPS machine code generator](https://github.com/Fyy10/Python-Playground/tree/master/MIPS_gen_code): generate machine code from MIPS assembly
+
+## FA Language -- Aug.2023 ~ Nov.2023
 
 - Project GitHub (C/C++): [https://github.com/Fyy10/FAL](https://github.com/Fyy10/FAL)
 - A C-style compiler built with Flex, Bison, and LLVM
 - Lexical analysis with Flex
 - Semantic parsing with Bison
-- Code generation and optimization with LLVM -->
+- Code generation and optimization with LLVM
 
-## Some Utility Tools
+## Branch Predictor -- Oct.2023
 
-- [Math renderer](https://math-render.pages.dev/): write $\LaTeX$ equations in the browser and copy them to MS Word
-- [MIPS machine code generator](https://github.com/Fyy10/Python-Playground/tree/master/MIPS_gen_code): generate machine code from MIPS assembly
+- The C++ implementation of multiple branch predictors proposed in different literatures
+- Defined an abstract class `Predictor` as the interface where all implemented predictors are derived from this base class
+- Reimplemented the `GSharePredictor` to follow the interface specification of `Predictor`
+- Implemented the tournament predictor of the [Alpha 21264](https://acg.cis.upenn.edu/milom/cis501-Fall09/papers/Alpha21264.pdf) microprocessor
+- Implemented the perceptron predictor proposed in the paper [Dynamic Branch Prediction with Perceptrons](https://www.cs.utexas.edu/~lin/papers/hpca01.pdf)
+- The perceptron predictor was able to outperform the `GSharePredictor` by a large margin (4.6 less mis-predictions per 1k instructions)
 
 ## Ray Tracer -- Jul.2023 ~ Aug.2023
 
