@@ -69,6 +69,14 @@ You can find the PDF [here](../files/resume.pdf).
 - [Math renderer](https://math-render.pages.dev/): write $\LaTeX$ equations in the browser and copy them to MS Word
 - [MIPS machine code generator](https://github.com/Fyy10/Python-Playground/tree/master/MIPS_gen_code): generate machine code from MIPS assembly
 
+## Cache Simulator
+
+- Implemented a double-layer LRU cache with C/C++
+- Reimplemented the dedicated auxiliary data structures for the LRU cache such as `Array`, `LinkedList`, and `HashSet`
+- The L1 cache (includes instruction cache and data cache) and the L2 cache are both set-associative
+- Designed a next-line prefetcher for the cache and significantly reduced cache miss rate
+- The double-layer LRU cache is tested through the cache configurations of [MIPS R10K](https://ieeexplore.ieee.org/document/491460) and [Alpha 21264](https://acg.cis.upenn.edu/milom/cis501-Fall09/papers/Alpha21264.pdf) on multiple program traces
+
 ## FA Language -- Aug.2023 ~ Nov.2023
 
 - Project GitHub (C/C++): [https://github.com/Fyy10/FAL](https://github.com/Fyy10/FAL)
