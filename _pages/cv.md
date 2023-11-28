@@ -69,7 +69,7 @@ You can find the PDF [here](../files/resume.pdf).
 - [Math renderer](https://math-render.pages.dev/): write $\LaTeX$ equations in the browser and copy them to MS Word
 - [MIPS machine code generator](https://github.com/Fyy10/Python-Playground/tree/master/MIPS_gen_code): generate machine code from MIPS assembly
 
-## Cache Simulator
+## Cache Simulator -- Nov.2023
 
 - Implemented a double-layer LRU cache with C/C++
 - Reimplemented the dedicated auxiliary data structures for the LRU cache such as `Array`, `LinkedList`, and `HashSet`
