@@ -1,0 +1,15 @@
+{
+	"name": "Jekyll",
+	"image": "ruby:2.7.8",
+	"forwardPorts": [
+		4000
+	],
+	"postCreateCommand": "bundle install",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"shd101wyy.markdown-preview-enhanced"
+			]
+		}
+	}
+}
