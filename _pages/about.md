@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year master's student at **University of California, San Diego** ([UCSD](https://ucsd.edu/)) majoring in Computer Science. Prior to that, I received my bachelor's degree in Computer Science and Technology at **University of Electronic Science and Technology of China** ([UESTC](https://uestc.edu.cn)), advised by Prof. [Xing Xu](https://interxuxing.github.io/).
+I am a software engineer working at [MiTAC Information Systems Corp.](https://www.mitaccomputing.com/), dedicated to internal service architecture design & development.
+I graduated from **University of California, San Diego** ([UCSD](https://ucsd.edu/)) with a master's degree in Computer Science.
+Prior to that, I received my bachelor's degree in Computer Science and Technology at **University of Electronic Science and Technology of China** ([UESTC](https://uestc.edu.cn)), advised by Prof. [Xing Xu](https://interxuxing.github.io/).
 
 <!-- News
 ======
@@ -24,5 +26,6 @@ I have some projects related to operating systems, networking and compilers for 
 
 Experiences
 ======
+- **MiTAC Information Systems Corp.**, *Software Engineer*
 - **Sichuan Hwadee Information Technology Ltd.**, *Crawler Engineer Intern*
 - **UESTC Center for Future Media**, *Deep Learning Research Assistant* \| Advisor: Xing Xu
