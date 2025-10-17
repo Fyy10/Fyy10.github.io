@@ -9,11 +9,44 @@ redirect_from:
 
 {% include base_path %}
 
+<!-- {% include toc %} -->
+
 You can find the PDF [here](../files/resume.pdf).
+
+# Working Experience
+
+## MiTAC Information Systems Corp. -- Apr.2024 ~ Present
+
+*Software Engineer*; Company Homepage: [https://www.mitaccomputing.com/](https://www.mitaccomputing.com/); *Fremont, California*
+
+- Implemented a core service in Go with Gin framework to expose a unified DB access interface to other services, auto management of multiple DBs, connection pools, thread-safe transaction control, etc.
+- Architected a multi-layer service structure with reverse proxy to handle both internal and external API requests
+- Designed and developed an auth service as an API gateway in Go to fulfill role-based access control (RBAC) by API routes, powered by JWT
+- Refactored and upgraded an internal .NET client application to use Oracle.ManagedDataAccess, avoiding dependency on Oracle Instant Client on user computers
+- Migrated internal codebases from team foundation server (TFS) to GitLab, optimized for a modern version control workflow
+- Created CI/CD pipelines to streamline service deployments through docker containers, orchestrated containers through docker compose in a declarative and version-controlled manner
+- Rewrote a Xamarin mobile app in Flutter, deployed the app for warehouse logistic management to 100+ handheld devices (PDA) across multiple warehouses
+- Maintained internal production line management system (Shop Floor Control, SFCS), Logistic Information System (LIS) with C# (.NET), ASP.NET, DevExpress, and PL/SQL
+
+## Sichuan Hwadee Information Technology Ltd. -- Jun.2020 ~ Jul.2020
+
+*Crawler Engineer Intern*; Company Homepage: [http://www.hwadee.com/](http://www.hwadee.com/); *Chengdu, China*
+
+- Used Scrapy as the crawler engine to crawl movie metadata from IMDb Top 1000 rated movies and combined data into a single file
+- Generated pages to be crawled and stored links into a Redis server
+- Wrote a script to store the data into a MySQL database
+
+## UESTC Center for Future Media -- Oct.2019 ~ Jun.2022
+
+*Deep Learning Research Assistant*; Laboratory Web: [https://cfm.uestc.edu.cn/](https://cfm.uestc.edu.cn/); Advisor: *Xing Xu*; *Chengdu, China*
+
+- Proposed a method for multi-source domain adaptation by aligning partial features, implemented the model with PyTorch, and conducted experiments to demonstrate the superiority of the model
+- Composed the Statement of Claims of a patent for the proposed method
+- Published a research paper as the first author at the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 
 # Education
 
-## University of California, San Diego (UCSD) -- Sep.2022 ~ Mar.2024 (expected)
+## University of California, San Diego (UCSD) -- Sep.2022 ~ Mar.2024
 
 - Major: Computer Science \| **Cumulative GPA: 4.0/4.0**
 - Major Coursework: Principles of Computer Operating Systems, Recommender Systems, Probabilistic Reasoning & Learning, Convex Optimization, Search and Optimization, Graduate Networked Systems, Statistical Natural Language Processing, Compiler Construction, Parallel Computing, Data Science Programming, Principles of Computer Architecture, Mathematics for Robotics.
@@ -34,24 +67,6 @@ You can find the PDF [here](../files/resume.pdf).
 - Unified issues of "partialness" to a more generalized Multi-Source Domain Adaption (MSDA) task as Multi-Source Partial Domain Adaption (MSPDA) and proposed a novel model termed Partial Feature Selection and Alignment (PFSA) to cope with both MSDA and MSPDA scenarios.
 - Employed a feature selection vector based on the correlation among the features of multiple source domains and the target domain and designed three effective feature alignment losses to align the features by preserving the domain information of data sample clusters in the same category and discrimination between different classes.
 - Extensive experiments conducted on three prevailing MSDA datasets exhibited that the model outperformed the state-of-the-art MSDA and PDA methods in both MSDA and MSPDA tasks.
-
-# Working Experience
-
-## Sichuan Hwadee Information Technology Ltd. -- Jun.2020 ~ Jul.2020
-
-*Crawler Engineer Intern*; Company Homepage: [http://www.hwadee.com/](http://www.hwadee.com/); *Chengdu, China*
-
-- Used Scrapy as the crawler engine to crawl movie metadata from IMDb Top 1000 rated movies and combined data into a single file
-- Generated pages to be crawled and stored links into a Redis server
-- Wrote a script to store the data into a MySQL database
-
-## UESTC Center for Future Media -- Oct.2019 ~ Jun.2022
-
-*Deep Learning Research Assistant*; Laboratory Web: [https://cfm.uestc.edu.cn/](https://cfm.uestc.edu.cn/); Advisor: *Xing Xu*; *Chengdu, China*
-
-- Proposed a method for multi-source domain adaptation by aligning partial features, implemented the model with PyTorch, and conducted experiments to demonstrate the superiority of the model
-- Composed the Statement of Claims of a patent for the proposed method
-- Published a research paper as the first author at the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 
 # Projects
 
