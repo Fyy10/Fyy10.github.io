@@ -22,6 +22,7 @@ You can find the PDF [here](../files/resume.pdf).
 - Implemented a core service in Go with Gin framework to expose a unified DB access interface to other services, auto management of multiple DBs, connection pools, thread-safe transaction control, etc.
 - Architected a multi-layer service structure with reverse proxy to handle both internal and external API requests
 - Designed and developed an auth service as an API gateway in Go to fulfill role-based access control (RBAC) by API routes, powered by JWT
+- Developed REST API services in Python with FastAPI to support CRUD operations on DB entities, retrieving data reports, etc.
 - Refactored and upgraded an internal .NET client application to use Oracle.ManagedDataAccess, avoiding dependency on Oracle Instant Client on user computers
 - Migrated internal codebases from team foundation server (TFS) to GitLab, optimized for a modern version control workflow
 - Created CI/CD pipelines to streamline service deployments through docker containers, orchestrated containers through docker compose in a declarative and version-controlled manner
