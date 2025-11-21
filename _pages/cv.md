@@ -19,31 +19,31 @@ You can find the PDF [here](../files/resume.pdf).
 
 *Software Engineer*; Company Homepage: [https://www.mitaccomputing.com/](https://www.mitaccomputing.com/); *Fremont, California*
 
-- Implemented a core service in Go with Gin framework to expose a unified DB access interface to other services, auto management of multiple DBs, connection pools, thread-safe transaction control, etc.
-- Architected a multi-layer service structure with reverse proxy to handle both internal and external API requests
-- Designed and developed an auth service as an API gateway in Go to fulfill role-based access control (RBAC) by API routes, powered by JWT
-- Developed REST API services in Python with FastAPI to support CRUD operations on DB entities, retrieving data reports, etc.
-- Refactored and upgraded an internal .NET client application to use Oracle.ManagedDataAccess, avoiding dependency on Oracle Instant Client on user computers
-- Migrated internal codebases from team foundation server (TFS) to GitLab, optimized for a modern version control workflow
-- Created CI/CD pipelines to streamline service deployments through docker containers, orchestrated containers through docker compose in a declarative and version-controlled manner
-- Rewrote a Xamarin mobile app in Flutter, deployed the app for warehouse logistic management to 100+ handheld devices (PDA) across multiple warehouses
-- Maintained internal production line management system (Shop Floor Control, SFCS), Logistic Information System (LIS) with C# (.NET), ASP.NET, DevExpress, and PL/SQL
+- Engineered a core service in Go with the Gin framework to provide a unified database access interface, featuring automated management of multiple databases, connection pools, and thread-safe transactions.
+- Architected a multi-tiered service infrastructure with a reverse proxy to manage both internal and external API requests efficiently.
+- Designed and developed a secure authentication service and API gateway in Go, implementing Role-Based Access Control (RBAC) for API routes using JWT.
+- Developed robust RESTful API services in Python with FastAPI for CRUD operations on database entities and the generation of data reports.
+- Successfully refactored and upgraded a legacy .NET client application to use Oracle.ManagedDataAccess, eliminating the dependency on Oracle Instant Client for end-users.
+- Led the migration of internal codebases from TFS to GitLab, establishing a modern version control workflow and improving development efficiency.
+- Established CI/CD pipelines to automate and streamline service deployments using Docker containers, orchestrated with Docker Compose for a declarative and version-controlled infrastructure.
+- Re-engineered a Xamarin mobile application in Flutter for warehouse logistics management, successfully deployed it to over 100 handheld devices across multiple warehouses.
+- Maintained and enhanced key internal systems, including the Shop Floor Control System (SFCS) and Logistic Information System (LIS), utilizing C# (.NET), ASP.NET, DevExpress, and PL/SQL.
 
 ## Sichuan Hwadee Information Technology Ltd. -- Jun.2020 ~ Jul.2020
 
 *Crawler Engineer Intern*; Company Homepage: [http://www.hwadee.com/](http://www.hwadee.com/); *Chengdu, China*
 
-- Used Scrapy as the crawler engine to crawl movie metadata from IMDb Top 1000 rated movies and combined data into a single file
-- Generated pages to be crawled and stored links into a Redis server
-- Wrote a script to store the data into a MySQL database
+- Developed a web crawler using Scrapy to extract metadata for the top 1000 rated movies from IMDb.
+- Utilized Redis to manage the queue of target URLs for the crawler.
+- Automated the data pipeline by scripting the transfer of scraped data into a structured MySQL database for analysis.
 
 ## UESTC Center for Future Media -- Oct.2019 ~ Jun.2022
 
 *Deep Learning Research Assistant*; Laboratory Web: [https://cfm.uestc.edu.cn/](https://cfm.uestc.edu.cn/); Advisor: *Xing Xu*; *Chengdu, China*
 
-- Proposed a method for multi-source domain adaptation by aligning partial features, implemented the model with PyTorch, and conducted experiments to demonstrate the superiority of the model
-- Composed the Statement of Claims of a patent for the proposed method
-- Published a research paper as the first author at the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+- Innovated a novel method for multi-source domain adaptation using partial feature alignment, implemented in PyTorch.
+- Conducted extensive experiments to validate the model's state-of-the-art performance, leading to a first-author publication at the prestigious CVPR conference.
+- Authored the Statement of Claims for a patent based on the research, showcasing its novelty and potential for practical application.
 
 # Education
 
@@ -113,22 +113,19 @@ You can find the PDF [here](../files/resume.pdf).
 ## Ray Tracer -- Jul.2023 ~ Aug.2023
 
 - Project GitHub (C/C++): [https://github.com/Fyy10/ray-tracer](https://github.com/Fyy10/ray-tracer)
-- A toy ray tracer implemented in C/C++ from scratch
-- Learned the basic concepts of rendering in computer graphics
-- Implemented the base classes of 3D vectors, rays, and colors
-- Defined the interface of diffuse materials, metals, and dielectric materials for interaction with rays
-- Positionable camera with antialiasing and defocus blur
-- Strengthened my object-oriented programming skills and understanding
+- Developed a ray tracer from scratch in C++, implementing fundamental computer graphics concepts.
+- Engineered classes for 3D vectors, rays, and colors, and defined interfaces for diffuse, metallic, and dielectric materials to simulate realistic light interactions.
+- Implemented advanced camera features including antialiasing and defocus blur to enhance image quality.
 
 ## Snek Compiler -- Apr.2023 ~ Jun.2023
 
 - Project GitHub (Rust): [https://github.com/Fyy10/snek-compiler](https://github.com/Fyy10/snek-compiler)
-- An x86_64 compiler for snek (Lisp-like) language
-- Parsed the abstract syntax tree (AST) using Rust pattern matching
-- Implemented numerical and logical operators, variable binding, if statements, loop statements, functions, and structured data (tuples)
-- Learned and followed the calling convention according to System V ABI
-- Created heap-allocated data with Rust library and managed the memory with Assembly
-- Garbage collection using LISP 2 mark-and-compact algorithm
+- Developed an x86_64 compiler for a Lisp-like language called 'snek' using Rust.
+- Implemented a parser for the abstract syntax tree (AST) leveraging Rust's pattern matching capabilities.
+- Successfully implemented core language features including numerical and logical operators, variable bindings, conditional and loop statements, functions, and tuple-based structured data.
+- Adhered to the System V ABI for function calling conventions.
+- Managed heap-allocated data structures using Rust libraries, with low-level memory management in Assembly.
+- Implemented a garbage collector using the LISP 2 mark-and-compact algorithm to manage memory automatically.
 
 ## SurfStore: A Distributed and Decentralized File Synchronization System -- Jan.2023 ~ Mar.2023
 
@@ -189,19 +186,10 @@ You can find the PDF [here](../files/resume.pdf).
 
 # Skills
 
-- Python
-  - PyTorch
-  - NumPy
-- $\LaTeX$
-- C/C++
-  - MPI
-  - CUDA C
-  - Qt
-- Java
-- Go
-- Rust
-- Intel Assembly
-- Git
+- **Languages**: Python, Go, C/C++, Rust, Java, Intel Assembly, SQL
+- **Technologies**: PyTorch, NumPy, FastAPI, Gin, gRPC, Docker, Git, MPI, CUDA, Qt, .NET, DevExpress
+- **Databases**: Oracle (PL/SQL), MySQL, SQLite, Redis
+- **Other**: $\LaTeX$
 
 # Language
 
