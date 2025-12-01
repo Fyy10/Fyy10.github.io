@@ -84,6 +84,13 @@ You can find the PDF [here](../files/resume.pdf).
 
 - [Math renderer](https://math-render.pages.dev/): write $\LaTeX$ equations in the browser and copy them to MS Word
 - [MIPS machine code generator](https://github.com/Fyy10/Python-Playground/tree/master/MIPS_gen_code): generate machine code from MIPS assembly
+- [AI Image Editor](https://ai-imgedit.netlify.app/): a UI tool utilizing Gemini Image APIs (Nano Banana) for image generation and editing
+- [Renpy Translator](https://github.com/Fyy10/renpy-translator): use LLM to translate [Renpy](https://www.renpy.org/) game scripts
+
+## Lens Simulator -- Oct.2024
+
+- Project Github (Python): [https://github.com/Fyy10/lens-simulator-py](https://github.com/Fyy10/lens-simulator-py)
+- Simulate lens behavior through path tracing
 
 ## Cache Simulator -- Nov.2023
 
