@@ -91,6 +91,9 @@ You can find the PDF [here](../files/resume.pdf).
 
 - Project Github (Python): [https://github.com/Fyy10/lens-simulator-py](https://github.com/Fyy10/lens-simulator-py)
 - Simulate lens behavior through path tracing
+- Vector manipulations & calculations with NumPy
+- Experiments for lenses with different focal lengths, apertures, focal distances, etc.
+- Results presented with Matplotlib
 
 ## Cache Simulator -- Nov.2023
 

@@ -22,7 +22,7 @@ My research interests span computer vision, artificial intelligence, and neurosc
 
 Projects
 ======
-I have some projects related to operating systems, networking and compilers for personal interests. Please see my [GitHub](https://github.com/Fyy10) or [CV](https://Fyy10.github.io/cv) for details.
+I have some projects related to operating systems, networking and compilers for personal interests. Please see my [GitHub](https://github.com/Fyy10) or [CV](./cv) for details.
 
 Experiences
 ======
