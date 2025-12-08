@@ -196,8 +196,8 @@ You can find the PDF [here](../files/resume.pdf).
 
 # Skills
 
-- **Languages**: Python, Go, C/C++, Rust, Java, Intel Assembly, SQL
-- **Technologies**: PyTorch, NumPy, FastAPI, Gin, gRPC, Docker, Git, MPI, CUDA, Qt, .NET, DevExpress
+- **Languages**: Python, Go, C\#, PL/SQL, C/C++, Dart, Rust, Java, Intel Assembly
+- **Technologies**: FastAPI, Gin, Docker, Docker Compose, Git, Flutter, PyTorch, NumPy, gRPC, MPI, CUDA, Qt, ASP.NET, DevExpress
 - **Databases**: Oracle (PL/SQL), MySQL, SQLite, Redis
 - **Other**: $\LaTeX$
 
