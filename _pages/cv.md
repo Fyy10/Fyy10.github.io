@@ -135,17 +135,17 @@ You can find the PDF [here](../files/resume.pdf).
 - Successfully implemented core language features including numerical and logical operators, variable bindings, conditional and loop statements, functions, and tuple-based structured data.
 - Adhered to the System V ABI for function calling conventions.
 - Managed heap-allocated data structures using Rust libraries, with low-level memory management in Assembly.
-- Implemented a garbage collector using the LISP 2 mark-and-compact algorithm to manage memory automatically.
+- Implemented a garbage collector using the LISP 2 mark-compact algorithm to manage memory automatically.
 
 ## SurfStore: A Distributed and Decentralized File Synchronization System -- Jan.2023 ~ Mar.2023
 
-<!-- - Project GitHub (Go): -->
-- Implemented a key-value store for file content blocks
-- Utilized SQLite to maintain a local index database for each client
-- Defined communications among clients and servers via gRPC and protocol buffers
-- Separately store the file metadata and contents into distributed servers
-- Constructed a consistent hash ring to find the dedicated storage server (successor) for each file block
-- Implemented the [Raft](https://raft.github.io/) consensus algorithm to achieve fault-tolerance
+- Project GitHub (Go): [https://github.com/Fyy10/SurfStore](https://github.com/Fyy10/SurfStore)
+- Engineered a distributed, decentralized file synchronization system from the ground up.
+- Designed and implemented a key-value store for block-level data storage, with a local SQLite index for efficient client-side metadata lookups.
+- Architected a scalable system that decouples metadata and content storage across distributed servers.
+- Utilized gRPC and Protocol Buffers to define efficient, strongly-typed client-server communication protocols.
+- Implemented a consistent hash ring for deterministic data placement and retrieval, ensuring balanced load distribution.
+- Guaranteed system reliability and fault tolerance by integrating the [Raft](https://raft.github.io/) consensus algorithm for the metadata service.
 
 ## Nachos 5.0j -- Oct.2022 ~ Dec.2022
 
