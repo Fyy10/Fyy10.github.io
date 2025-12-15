@@ -17,7 +17,7 @@ You can find the PDF [here](../files/resume.pdf).
 
 ## MiTAC Information Systems Corp. -- Apr.2024 ~ Present
 
-*Software Engineer*; Company Homepage: [https://www.mitaccomputing.com/](https://www.mitaccomputing.com/); *Fremont, California*
+*Software Engineer*; Company Homepage: [https://www.mitaccomputing.com/](https://www.mitaccomputing.com/); *Newark, California*
 
 - Engineered a core service in Go with the Gin framework to provide a unified database access interface, featuring automated management of multiple databases, connection pools, and thread-safe transactions.
 - Architected a multi-tiered service infrastructure with a reverse proxy to manage both internal and external API requests efficiently.
