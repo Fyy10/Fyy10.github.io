@@ -87,6 +87,13 @@ You can find the PDF [here](../docs/resume/resume.pdf).
 - [AI Image Editor](https://ai-imgedit.netlify.app/): a UI tool utilizing Gemini Image APIs (Nano Banana) for image generation and editing
 - [Renpy Translator](https://github.com/Fyy10/renpy-translator): use LLM to translate [Renpy](https://www.renpy.org/) game scripts
 
+## Personal Homelab Infrastructure -- May.2026 ~ Present
+
+- Project GitHub (Docker Compose): [https://github.com/Fyy10/homelab](https://github.com/Fyy10/homelab)
+- Designed a containerized, single-server homelab with Docker Compose, using Caddy as the sole public ingress and Authelia to provide forward authentication for protected services.
+- Isolated service ports through an internal Docker network and separated version-controlled configuration from runtime data, media, and secrets.
+- Standardized service management with pinned container image versions, reusable operational scripts, health checks, and documented procedures for adding and configuring services.
+
 ## Lens Simulator -- Oct.2024
 
 - Project Github (Python): [https://github.com/Fyy10/lens-simulator-py](https://github.com/Fyy10/lens-simulator-py)
