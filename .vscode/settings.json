@@ -1,0 +1,25 @@
+{
+  "latex-workshop.latex.outDir": "../../../public/files",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk-resume",
+      "command": "latexmk",
+      "args": [
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-auxdir=%DIR%",
+        "-outdir=%OUTDIR%",
+        "-jobname=resume",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "Build resume PDF",
+      "tools": ["latexmk-resume"]
+    }
+  ],
+  "latex-workshop.latex.recipe.default": "first"
+}

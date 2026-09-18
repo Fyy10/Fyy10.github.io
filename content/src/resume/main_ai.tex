@@ -1,0 +1,321 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\setlength{\footskip}{5pt} % there is a warning if I don't include this line
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      % \textit{\small#3} & \textit{\small #4} \\
+      {\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Yangye Fu \upshape\small\faMapMarker* Fremont, California} \\ \vspace{1pt}
+    % 3869 Miramar St., La Jolla, California 92092 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ (858)-214-8957 ~
+    \href{mailto:jefffu233@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{jefffu233@gmail.com}} ~
+    \href{https://www.linkedin.com/in/yangye-fu-067304270/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/yangye-fu-067304270}} ~
+    \href{https://github.com/Fyy10}{\raisebox{-0.2\height}\faGithub\ \underline{Fyy10}} ~
+    \href{https://fyy10.github.io}{\raisebox{-0.2\height}\faHome\ \underline{fyy10.github.io}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small{AI-focused software engineer with production experience building Python/Go services and a strong machine learning research background. First author at CVPR with hands-on experience in PyTorch, computer vision, domain adaptation, NLP, and LLM-powered developer tools; skilled at translating research ideas into reliable, deployable software.}
+\vspace{-8pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Software Engineer}{Apr. 2024 -- Present}
+{\textbf{MiTAC Information Systems Corp.}}{Newark, California}
+\resumeItemListStart
+    \resumeItem{Own multiple services from architecture through deployment, using agentic coding workflows (Codex, Claude Code, Copilot, MCP, and reusable agent skills) for codebase analysis, debugging, and feature delivery.}
+    \resumeItem{Initiated and continuously improved agent rules/regulations across multiple projects to stabilize agent behavior.}
+    \resumeItem{Built RESTful data and reporting APIs in Python/FastAPI and a shared database access service in Go/Gin, automating multi-database lifecycle, connection pooling, and thread-safe transactions.}
+    \resumeItem{Designed a reverse-proxy service architecture plus a Go authentication/API gateway with JWT-based RBAC, providing controlled access to internal and external endpoints.}
+    \resumeItem{Led the migration of 2 production codebases from TFS to GitLab and established CI/CD pipelines with Docker Compose, creating reproducible, declarative, version-controlled production deployments.}
+    \resumeItem{Re-engineered a Xamarin mobile application in Flutter for warehouse logistics management and deployed it to 100+ handheld devices across multiple warehouse sites.}
+    \resumeItem{Maintained 2 out of 3 mission-critical internal systems using C\#/.NET, ASP.NET, DevExpress, and Oracle PL/SQL.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Deep Learning Research Assistant}{Oct. 2019 -- Jun. 2022}
+{\textbf{UESTC Center for Future Media}}{Chengdu, China}
+\resumeItemListStart
+    \resumeItem{Proposed an AI model for multi-source unsupervised domain adaptation under partial label spaces, and designed feature-selection and alignment objectives to reduce cross-domain distribution gaps.}
+    \resumeItem{Implemented the full loop of data preprocessing, data augmentation, training, evaluation, cross-validation, visualization through feature embedding, and ablation study with PyTorch and other Python libraries.}
+    \resumeItem{Ran extensive experiments on three domain-adaptation benchmarks featuring more than 18GB of data, 600K images, 345 categories, and 6 domains, demonstrating state-of-the-art performance across standard and partial label settings.}
+    \resumeItem{Published the work as \textbf{first author at CVPR 2021} and drafted the patent Statement of Claims for the method.}
+\resumeItemListEnd
+
+% \resumeSubheading
+% {Crawler Engineer Intern}{Jun. 2020 -- Jul. 2020}
+% {Sichuan Hwadee Information Technology Ltd.}{Chengdu, China}
+% \resumeItemListStart
+%     \resumeItem{Used Scrapy crawler engine to collect movie metadata from IMDb Top 1000 rated movies}
+%     \resumeItem{Generated target pages and stored links into a Redis server, preprocessed the data as required by fellow data analyst}
+%     \resumeItem{Wrote a script to store the data into a MySQL database provided by back-end engineer}
+% \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-12pt}
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+    \textbf{AI/ML}: PyTorch, computer vision, domain adaptation, NLP, CNNs, RNN/LSTM, attention, LLM APIs, NumPy \\
+    \textbf{Languages}: Python, Go, C/C++, C\#, PL/SQL, Rust, Java, Dart \quad
+    \textbf{Database}: Oracle, MySQL, SQLite, Redis \\
+    \textbf{Engineering}: FastAPI, Gin, REST, gRPC, Docker, Docker Compose, GitLab CI/CD, Linux, JWT/RBAC, MCP, Codex, Claude Code, Copilot
+}}
+\end{itemize}
+\vspace{-14pt}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Ren'Py Translator} $|$ \emph{Python, LLM APIs} $|$ \href{https://github.com/Fyy10/renpy-translator}{\underline{github.com/Fyy10/renpy-translator}}}{Feb. 2025 -- May 2026}
+\resumeItemListStart
+    \resumeItem{Developed an LLM-powered translation tool for Ren'Py game scripts, preserving script structure throughout automated localization workflow; used it to translate a complete game, then rebuilt, packaged, and released the localized version.}
+\resumeItemListEnd
+
+\vspace{-4pt}
+
+\resumeProjectHeading
+{\textbf{AI Image Editor} $|$ \emph{Gemini Image API, Web UI} $|$ \href{https://ai-imgedit.netlify.app/}{\underline{ai-imgedit.netlify.app}}}
+{Sep. 2025 -- Dec. 2025}
+\resumeItemListStart
+    \resumeItem{Built and deployed an interactive web interface for prompt-based image generation and editing with Gemini image models, turning multimodal APIs into an accessible end-user workflow.}
+\resumeItemListEnd
+
+\vspace{-4pt}
+
+\resumeProjectHeading
+{\textbf{Image Retrieval Engine} $|$ \emph{Python, PCA, CIFAR-10, DomainNet}}{May 2020 -- Jul. 2020}
+\resumeItemListStart
+    \resumeItem{Implemented content-based image retrieval with principal component analysis and visualized feature distributions across CIFAR-10 and DomainNet datasets.}
+\resumeItemListEnd
+
+\vspace{-4pt}
+
+\resumeProjectHeading
+{\textbf{AI Poet} $|$ \emph{Python, PyTorch, NLP} $|$ \href{https://github.com/Fyy10/AI-Poet}{\underline{github.com/Fyy10/AI-Poet}}}{Dec. 2019 -- Feb. 2020}
+\resumeItemListStart
+    \resumeItem{Built and trained a Chinese poetry generation system using RNN, LSTM, CharRNN, Seq2Seq, and attention architectures; released the training-evaluation-generation workflow and model checkpoints on GitHub.}
+\resumeItemListEnd
+
+% \vspace{-13pt}
+
+% \resumeProjectHeading
+% {\textbf{File Backup System} $|$ \emph{C/C++, Qt Creator, Linux, pthreads} $|$ \href{https://github.com/Fyy10/File-Backup-System}{\underline{GitHub Link}}}
+% {Aug. 2021 -- Sep. 2021}
+% \resumeItemListStart
+%     \resumeItem{A C/S architecture file backup application with client GUI (Qt) for Linux, released as an AppImage}
+%     \resumeItem{Monitored file system with inotify APIs to achieve \textbf{backup-on-save}, managed listening threads with pthread library}
+%     \resumeItem{Led a group of 3, delivered an oral presentation and defense}
+% \resumeItemListEnd
+
+% \vspace{-13pt}
+
+% \resumeProjectHeading
+% {\textbf{The Sieve of Prime Numbers and N-body Simulation} $|$ \emph{C, MPI, CUDA} $|$ \href{https://github.com/Fyy10/Parallel_Computing}{\underline{GitHub Link}}}
+% {Mar. 2021 -- May 2021}
+% \resumeItemListStart
+%     \resumeItem{Implemented the Sieve of Eratosthenes Algorithm using Message Passing Interface (MPI)}
+%     \resumeItem{Optimized the sieve algorithm and achieved significant improvement in performance (20x speedup using 64 cores)}
+%     \resumeItem{Simulated the gravity interactions and the motions of 4096 bodies with CUDA C and reached more than 1500x speedup}
+% \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-12pt}
+
+
+%-----------INVOLVEMENT---------------
+% \section{Leadership / Extracurricular}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
+%             \resumeItemListStart
+%                 \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+%                 \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+%                 \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+%             \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+
+
+% Publications
+\section{Publication}
+\footnotesize{\textbf{Yangye Fu} et al. \textit{Partial Feature Selection and Alignment for Multi-Source Domain Adaptation}. \textbf{IEEE/CVF CVPR 2021}. \href{https://openaccess.thecvf.com/content/CVPR2021/html/Fu_Partial_Feature_Selection_and_Alignment_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.html}{\underline{Paper}}}
+\vspace{-9pt}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of California, San Diego}{Sep. 2022 -- Mar. 2024}
+{M.S. in Computer Science, \textbf{GPA: 4.0/4.0}}{La Jolla, CA}
+% \resumeItemListStart
+
+% \resumeItem{Relevant Coursework: Principles of Computer Operating Systems, Graduate Networked Systems, Compiler Construction}
+
+% \resumeItemListEnd
+% \vspace{-10pt}
+
+\resumeSubheading
+{University of Electronic Science and Technology of China}{Sep. 2018 -- Jun. 2022}
+{B.Eng. in Computer Science and Technology, \textbf{GPA: 3.96/4.0}}{Chengdu, China}
+% \resumeItemListStart
+
+% \resumeItem{Relevant Coursework: Data Structure and Algorithm, Software Engineering, Principles of Computer Organization, Computer Architecture, Computer Operating System, Computer Networks, Applications of Database, Principles of Compilers, Assembly Language and Microcomputers, Artificial Intelligence, Distributed \& Parallel Computing}
+% \resumeItem{\textbf{Awards}: Excellent Student Scholarship, Excellent Undergrad Thesis Award}
+
+% \resumeItemListEnd
+\resumeSubHeadingListEnd
+% \vspace{-12pt}
+
+
+%------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+
+\end{document}
