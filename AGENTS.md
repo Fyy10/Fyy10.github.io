@@ -1,8 +1,10 @@
+# AGENTS.md
+
 ## Development
 
 When starting the dev server, use background mode:
 
-```
+```bash
 astro dev --background
 ```
 
@@ -11,6 +13,12 @@ Manage the background server with `astro dev stop`, `astro dev status`, and `ast
 ## Resume
 
 Whenever the user asks to compile the resume, compile `content/src/resume/main.tex` and write the resulting PDF to `public/files/resume.pdf`. Refer to `.vscode/settings.json` for the related latex configs.
+
+## Project Structure
+
+- `content/`: Put all the user content in this folder. You need to separately organize content and code.
+- `public/`: Files, media, etc. that will be accessible publicly.
+- `src/`: Astro project source code.
 
 ## Documentation
 
