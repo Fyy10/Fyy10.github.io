@@ -2,6 +2,8 @@
 
 ## Development
 
+This project must remain a statically generated website. Use Astro's static output and ensure that `astro build` produces deployable static files. Do not introduce SSR, server-mode output, server adapters, or features that require a persistent runtime server.
+
 When starting the dev server, use background mode:
 
 ```bash
