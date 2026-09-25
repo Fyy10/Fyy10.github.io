@@ -11,7 +11,7 @@ redirect_from:
 
 <!-- {% include toc %} -->
 
-You can find the PDF [here](../docs/resume/resume.pdf).
+You can find the PDF [here](/files/resume.pdf).
 
 # Working Experience
 

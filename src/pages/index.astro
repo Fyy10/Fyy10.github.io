@@ -1,17 +1,116 @@
 ---
+import profile from '../../content/profile.json';
+import site from '../../content/site.json';
 
+const socialLinks = [
+	{ label: 'GitHub', href: profile.social.github },
+	{ label: 'LinkedIn', href: profile.social.linkedin },
+	{ label: 'Instagram', href: profile.social.instagram },
+];
 ---
 
-<html lang="en">
+<html lang={site.locale}>
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content={site.description} />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<link rel="canonical" href={site.url} />
+		<title>{site.title}</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<main>
+			<img src={profile.avatar} alt={`${profile.fullName}'s profile photo`} />
+			<div>
+				<p class="eyebrow">{profile.title}</p>
+				<h1>{profile.fullName}</h1>
+				<p>{profile.bio}</p>
+				<p class="location">{profile.location}</p>
+				<nav aria-label="Contact and social links">
+					<a href={`mailto:${profile.email}`}>Email</a>
+					{socialLinks.map(({ label, href }) => (
+						<a href={href} rel="me">{label}</a>
+					))}
+				</nav>
+			</div>
+		</main>
 	</body>
 </html>
+
+<style>
+	:global(*) {
+		box-sizing: border-box;
+	}
+
+	:global(body) {
+		margin: 0;
+		min-height: 100vh;
+		display: grid;
+		place-items: center;
+		padding: 2rem;
+		font-family: system-ui, sans-serif;
+		color: #172033;
+		background: #f6f7f9;
+	}
+
+	main {
+		display: grid;
+		grid-template-columns: 10rem minmax(0, 32rem);
+		gap: 2rem;
+		align-items: center;
+	}
+
+	img {
+		width: 10rem;
+		aspect-ratio: 1;
+		object-fit: cover;
+		border-radius: 50%;
+	}
+
+	.eyebrow,
+	.location {
+		color: #596579;
+	}
+
+	.eyebrow {
+		margin: 0 0 0.4rem;
+		font-size: 0.8rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: capitalize;
+	}
+
+	h1 {
+		margin: 0;
+		font-size: clamp(2.25rem, 8vw, 4rem);
+		line-height: 1;
+	}
+
+	.location {
+		font-size: 0.9rem;
+	}
+
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+		margin-top: 1.5rem;
+	}
+
+	a {
+		color: #1f5fae;
+		text-underline-offset: 0.2em;
+	}
+
+	@media (max-width: 36rem) {
+		main {
+			grid-template-columns: 1fr;
+		}
+
+		img {
+			width: 8rem;
+		}
+	}
+</style>
