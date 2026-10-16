@@ -126,20 +126,19 @@
 % \end{tabular*}
 
 \begin{center}
-    {\Huge \scshape Yangye Fu \upshape\small\faMapMarker* Fremont, California} \\ \vspace{1pt}
+    {\Huge \scshape Yangye Fu \upshape\small $|$ Fremont, California} \\ \vspace{1pt}
     % 3869 Miramar St., La Jolla, California 92092 \\ \vspace{1pt}
-    \small \raisebox{-0.1\height}\faPhone\ (858)-214-8957 ~
-    \href{mailto:jefffu233@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{jefffu233@gmail.com}} ~
-    \href{https://www.linkedin.com/in/yangye-fu-067304270/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/yangye-fu-067304270}} ~
-    \href{https://github.com/Fyy10}{\raisebox{-0.2\height}\faGithub\ \underline{Fyy10}} ~
-    \href{https://fyy10.github.io}{\raisebox{-0.2\height}\faHome\ \underline{fyy10.github.io}}
+    \small (858)-214-8957 $|$
+    \href{mailto:jefffu233@gmail.com}{\underline{jefffu233@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/yangye-fu-067304270/}{\underline{linkedin.com/in/yangye-fu-067304270}} $|$
+    \href{https://github.com/Fyy10}{\underline{github.com/Fyy10}} $|$
+    \href{https://fyy10.github.io}{\underline{fyy10.github.io}}
     \vspace{-8pt}
 \end{center}
 
-% Biography
-\section{Brief Bio}
-Software engineer specializing in backend and internal platform engineering.
-I design, build, and deploy production services in Go and Python, with a focus on service architecture, API gateways, infrastructure, CI/CD, and agentic development workflows. My systems and AI background spans operating systems, compilers, distributed and networked systems, computer vision, deep learning, and machine learning.
+% Summary
+\section{Summary}
+Backend-focused software engineer with 2+ years of experience owning production Go and Python services, authentication and API infrastructure, CI/CD, and manufacturing and warehouse integrations. I am the primary backend owner in a three-developer team. CVPR first author with an MS in Computer Science from UC San Diego.
 \vspace{-8pt}
 
 
@@ -150,23 +149,21 @@ I design, build, and deploy production services in Go and Python, with a focus o
 {Software Engineer}{Apr. 2024 -- Present}
 {\textbf{Mitac Information Systems Corp}}{Newark, California}
 \resumeItemListStart
-    \resumeItem{Own multiple services from architecture through deployment, using agentic coding workflows (Codex, Claude Code, Copilot, MCP, and reusable agent skills) for codebase analysis, debugging, and feature delivery.}
-    \resumeItem{Initiated and continuously improved agent rules/regulations across multiple projects to stabilize agent behavior.}
-    \resumeItem{Built RESTful data and reporting APIs in Python/FastAPI and a shared database access service in Go/Gin, automating multi-database lifecycle, connection pooling, and thread-safe transactions.}
-    \resumeItem{Designed a reverse-proxy service architecture plus a Go authentication/API gateway with JWT-based RBAC, providing controlled access to internal and external endpoints.}
-    \resumeItem{Led the migration of 2 production codebases from TFS to GitLab and established CI/CD pipelines with Docker Compose, creating reproducible, declarative, version-controlled production deployments.}
-    \resumeItem{Re-engineered a Xamarin mobile application in Flutter for warehouse logistics management and deployed it to 100+ handheld devices across multiple warehouse sites.}
-    \resumeItem{Maintained 2 out of 3 mission-critical internal systems using C\#/.NET, ASP.NET, DevExpress, and Oracle PL/SQL.}
+    \resumeItem{Lead backend modernization of manufacturing and warehouse systems used by 400+ employees across 14 production lines and 10+ warehouses. Designed Python/FastAPI services with approximately 100 endpoints.}
+    \resumeItem{Architected MCore, a shared Go service used by all current backend services to access 4 production and 4 development Oracle instances, centralizing configurable connection pools, queries, batch execution, concurrent transaction control, retries, and graceful shutdown.}
+    \resumeItem{Built a Go authentication service and Caddy API gateway securing hundreds of routes across 3 systems for 400+ users, with LDAP/AD login, JWT revocation, RBAC, ABAC, permission caching, and trusted identity propagation.}
+    \resumeItem{Designed the state machine and integration APIs for automated warehouse inbound, outbound, and transfer workflows, coordinating 3 AGVs across approximately 4,000 storage locations with task prioritization, concurrency limits, and aisle-aware assignment.}
+    \resumeItem{Partnered directly with major cloud infrastructure customers to define, document, and support B2B APIs for server/rack assembly data and work-order intake. Replaced per-serial lookups with optimized SN/date-range queries that retrieve two weeks of data in tens of seconds.}
+    \resumeItem{Introduced Linux-based container deployments and GitLab CI/CD for backend services, automatically deploying development branches and tagged production releases with versioned rollback, Docker Compose recovery, and minimal manual intervention.}
+    \resumeItem{Led TFS-to-GitLab and .NET 2.5/3.5-to-4.5 migrations for 2 production desktop systems. Adopted a managed Oracle driver to eliminate client installation requirements across approximately 100 PCs without breaking user workflows.}
 \resumeItemListEnd
 
 \resumeSubheading
 {Deep Learning Research Assistant}{Oct. 2019 -- Jun. 2022}
 {\textbf{UESTC Center for Future Media}}{Chengdu, China}
 \resumeItemListStart
-    \resumeItem{Proposed an AI model for multi-source unsupervised domain adaptation under partial label spaces, and designed feature-selection and alignment objectives to reduce cross-domain distribution gaps.}
-    \resumeItem{Implemented the full loop of data preprocessing, data augmentation, training, evaluation, cross-validation, visualization through feature embedding, and ablation study with PyTorch and other Python libraries.}
-    \resumeItem{Ran extensive experiments on three domain-adaptation benchmarks featuring more than 18GB of data, 600K images, 345 categories, and 6 domains, demonstrating state-of-the-art performance across standard and partial label settings.}
-    \resumeItem{Published the work as \textbf{first author at CVPR 2021} and drafted the patent Statement of Claims for the method.}
+    \resumeItem{Proposed the Partial Feature Selection and Alignment model, designed its architecture and loss objectives and implemented the PyTorch training and evaluation pipeline for multi-source domain adaptation.}
+    \resumeItem{Led experimental design and co-authored the paper as \textbf{first author at CVPR 2021}. Ran extensive experiments on three domain-adaptation benchmarks featuring more than 18GB of data, 600K images, 345 categories, and 6 domains, demonstrating state-of-the-art performance across standard and partial label settings. Achieved average accuracy gain of 6.6\% over MSDA baselines and 14.4\% over PDA methods on the Digit-Five dataset.}
 \resumeItemListEnd
 
 % \resumeSubheading
@@ -196,9 +193,9 @@ I design, build, and deploy production services in Go and Python, with a focus o
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
 \small{\item{
-    \textbf{Languages}: Python ($6$ yrs.), C/C++ ($5$ yrs.), Go ($2$ yrs.), C\# ($2$ yrs.), PL/SQL ($2$ yrs.), Java ($2$ yrs.), Rust ($1$ yr.) \\
-    \textbf{Developer Tools}: Visual Studio, VS Code, JetBrains IDEs, Vim, Git, Copilot, Claude Code, Codex, MCP, Agent Skills \\%, Toad, Tabby (SSH Terminal, Port Forwarding) \\
-    \textbf{Technologies/Frameworks}: FastAPI, Gin, Docker Compose, Flutter, PyTorch, \LaTeX, Linux, AWS, Kubernetes, Kafka%, MPI, CUDA C, Qt
+    \textbf{Languages}: Go, Python, C\#, PL/SQL, C/C++, Rust, Dart \\
+    \textbf{Backend/Infrastructure}: FastAPI, Gin, Go net/http, pytest, Go testing, Oracle, Docker Compose, Caddy, GitLab CI/CD, Linux, OKD, Argo CD, Harbor, Infrastructure as Code \\
+    \textbf{Additional}: Flutter, PyTorch, gRPC, Protocol Buffers, SQLite
 }}
 \end{itemize}
 \vspace{-14pt}
@@ -209,21 +206,21 @@ I design, build, and deploy production services in Go and Python, with a focus o
 \vspace{-5pt}
 \resumeSubHeadingListStart
 
-\resumeProjectHeading
-{\textbf{Snek Compiler} $|$ \emph{Rust, Cargo, NASM, Makefile} $|$ \href{https://github.com/Fyy10/snek-compiler}{\underline{https://github.com/Fyy10/snek-compiler}}}
-{Apr. 2023 -- Jun. 2023}
-\resumeItemListStart
-    \resumeItem{Built an x86\_64 compiler for a Lisp-like language in Rust, including AST parsing, operators, bindings, and control flow.}
-    \resumeItem{Implemented System V ABI-compatible functions, tuple-based data, and automatic memory management with a LISP 2 mark-compact garbage collector featuring root tracing and in-place heap compaction.}
-\resumeItemListEnd
+% \resumeProjectHeading
+% {\textbf{Snek Compiler} $|$ \emph{Rust, Cargo, NASM, Makefile} $|$ \href{https://github.com/Fyy10/snek-compiler}{\underline{https://github.com/Fyy10/snek-compiler}}}
+% {Apr. 2023 -- Jun. 2023}
+% \resumeItemListStart
+%     \resumeItem{Built an x86\_64 compiler for a Lisp-like language in Rust, including AST parsing, operators, bindings, and control flow.}
+%     \resumeItem{Implemented System V ABI-compatible functions, tuple-based data, and automatic memory management with a LISP 2 mark-compact garbage collector featuring root tracing and in-place heap compaction.}
+% \resumeItemListEnd
 
-\vspace{-4pt}
+% \vspace{-4pt}
 
 \resumeProjectHeading
-{\textbf{Surf Store} $|$ \emph{Go, gRPC, Protobuf, Raft, SQLite} $|$ \href{https://github.com/Fyy10/SurfStore}{\underline{https://github.com/Fyy10/SurfStore}}}{Jan. 2023 -- Mar. 2023}
+{\textbf{SurfStore} $|$ \emph{Go, gRPC, Protocol Buffers, Raft, SQLite} $|$ \href{https://github.com/Fyy10/SurfStore}{\underline{github.com/Fyy10/SurfStore}}}{Jan. 2023 -- Mar. 2023}
 \resumeItemListStart
-    \resumeItem{Built a distributed file synchronization system in Go with gRPC/Protobuf, block-level key-value storage, and a local SQLite index that separated client metadata from remote file content.}
-    \resumeItem{Implemented consistent hashing for balanced data placement and \href{https://raft.github.io/}{\underline{Raft}} consensus for a fault-tolerant metadata service.}
+    \resumeItem{Built a distributed file synchronization system in Go with gRPC, block-level key-value storage, and a local SQLite metadata index.}
+    \resumeItem{Decoupled metadata and content across servers, using consistent hashing for deterministic block placement and Raft consensus for fault-tolerant metadata replication.}
 \resumeItemListEnd
 
 % \vspace{-13pt}
